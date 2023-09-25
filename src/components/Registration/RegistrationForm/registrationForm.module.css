@@ -1,0 +1,50 @@
+.registerForm{
+    padding: 4% 60px;
+    background: var(--white);
+    border: 5px solid var(--grey)
+}
+.regiterBtn{
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.175em;
+    padding: 15px 60px;
+    color: var(--white);
+    background: var(--lightBlue);
+    border: none;
+    border-radius: 5px;
+}
+.signup{
+    font-size: 3rem;
+    line-height: 39px;
+    letter-spacing: 0.175em;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.regiterInput{
+    padding: 10px;
+    width: 450px;
+    outline: none;
+    border: 2px solid #929292;
+    border-radius:5px;
+    background: transparent;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.registerImg{
+    position: absolute;
+    right: 15px;
+    width: 100px;
+    bottom: -2%;
+}
+.displayImg{
+    display: none;
+}
+
+.errormess{
+    color: var(--red);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}

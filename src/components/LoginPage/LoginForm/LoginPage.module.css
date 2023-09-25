@@ -1,0 +1,96 @@
+.loginPageForm{
+    margin-top: 70px;
+    background: var(--profileColor);
+    padding: 4% 0;
+}
+.formDiv{
+    margin: 0 auto;
+    width: 600px;
+    border: 5px solid var(--grey);
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.input{
+    padding: 20px;
+    width: 475px;
+    outline: none;
+    border: 2px solid #929292;
+    border-radius:5px;
+    background: transparent;
+    font-size: 20px;
+}
+
+.input:last-child{
+    margin-top: 30px;
+}
+
+.signin{
+    font-size: 3rem;
+    line-height: 39px;
+    letter-spacing: 0.175em;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.createAccount{
+    text-align: start;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.openRegisterPage{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.175em;
+    color: var(--lightBlue);
+    padding-left: 15px;
+}
+
+.loginBtn{
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.175em;
+    padding: 15px 60px;
+    color: var(--white);
+    background: var(--lightBlue);
+    border: none;
+    border-radius: 5px;
+}
+.divBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginImg{
+    height:330px;
+    position: absolute;
+    right: 26.2%;
+    bottom: -50px;
+}
+.loginImg2{
+    display: none;
+}
+.borderOR{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.border{
+    width: 150px;
+    border-bottom: 2px solid;
+}
+
+.errormess{
+    color: var(--red);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}

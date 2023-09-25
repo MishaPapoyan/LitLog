@@ -1,0 +1,124 @@
+.modale {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.modale.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modale__content {
+    padding: 50px;
+    background-color: white;
+    width: 100%;
+    transform: scale(.5);
+    transition: .4s all;
+}
+
+.modale__content.active {
+    transform: scale(1);
+}
+
+
+.modDiv {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.nameInput {
+    /*padding: 15px;*/
+    /*font-size: 2rem;*/
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+}
+
+.label {
+    font-size: 18px;
+    color: white;
+}
+
+.uploadedImageWrapper {
+    margin: 10px 0;
+}
+
+.imageUploadButton {
+    border: 1px solid white;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    font-size: 16px;
+}
+
+.uploadedImage {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.customFileInput {
+    display: none;
+}
+
+.mainDiv {
+    display: flex;
+    background-color: var(--profileColor);
+    min-height: 100vh;
+}
+
+
+.bar {
+    border-right: 1px solid var(--borderColor);
+}
+
+.rightSideWrapper {
+    width: 100%;
+    margin: 0 15px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+.friendsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contentWrapper {
+    width: 50%;
+}
+
+
+.name, .email {
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.modSpan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 10px;
+}
